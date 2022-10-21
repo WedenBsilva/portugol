@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+
+
+    escreva("inforne Salario  brunto R$ ")
+    leia(sBruto)
+    escreva("INFORME VALOR ADICIONAL NOTURNO R$ ")
+    leia(aNoturno)
+    escreva("informe quantidade de horas extra R$ ")
+    leia(hextra)
+    escreva("informe desconto R$ ")
+  } leia(desconto)
+  //SALARIO LIQUIDO = SALARIO BRUNOTO + ADIC. NOTURNO + (H. EXTRA * 5) - DESCONTO
+  sliquido =sbruto + aNoturno + (HeXtra*5) - desconto
+  escreva("o seu salario e de R$ ". sLquido)
+}

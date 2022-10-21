@@ -1,0 +1,18 @@
+rograma {
+  funcao inicio() {
+  real n1, n2, n3, n4, media
+
+  escrava("�ncira a primeira nota; \n")
+  leia(n1)
+  escreva("insira a segunda nota \n")
+  leia(n2)
+  escreva("insira a terceira  nota \n")
+  leia(n3)
+  escreva("insira a quarta nota \n")
+  leia(n4)
+  media = (n1 + n2 + n3 + n4) /4
+   escreva("Caro, aluno, a sua media das 4 notas foi;", media)
+  }
+}
+
+}

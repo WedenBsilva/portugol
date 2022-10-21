@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    real salario, abono, novoSalario
+
+    escreva("Favor insira o seu salario R$  \n")
+    leia(salario)
+    //escreva("O salario digitado foi R$ ", salario)
+    escreva("Digite o seu Abono R$ \n")
+    leia(abono)
+    //escreva("O salario digitado foi R$ ",salario, abono)
+    novoSalario = salario + abono
+    escreva("Caro, usuario, o valor do novo Salario e R$" ,novoSalario)
+
+  }
+}
