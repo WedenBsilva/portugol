@@ -1,0 +1,56 @@
+programa {
+  funcao inicio() {
+    // escreva seis numeros 
+
+    inteiro lanches, quantidade, valorProduto
+
+    escreva("Dugite o numeros dos lanches hot dog 1 x salada 2 x banco 3 bauru 4 refri 5 suco de laranka6; ")
+    leia(lanches)
+    escreva("Digite a quantidade")
+    leia(quantidade)
+   
+
+    escolha(lanches){
+
+      pare
+      caso 1:
+      escreva("lanche hot Dog valor 10,00")
+      valorProduto = quantidade * 10
+      escreva("O valor desejado e de ", valorProduto)
+      
+      pare
+      caso 2
+      escreva("x salada valor 15,00")
+      valorProduto = quantidade * 15
+      escreva("O valor desejado e de ", valorProduto)
+
+      pare
+      caso 3
+      escreva("x becon valor 18,00")
+      valorProduto = quantidade * 18
+      escreva("O valor desejado e de ", valorProduto)
+
+      pare
+      caso 4
+      escreva("bauru valor 12,00")
+      valorProduto = quantidade * 12
+      escreva("O valor desejado e de ", valorProduto)
+
+      pare
+      caso 5
+      escreva("refri valor 8,00")
+      valorProduto = quantidade * 8
+      escreva("O valor desejado e de ", valorProduto)
+
+      pare
+      caso 6
+      escreva("suco de laranja valor 13,00")
+     valorProduto = quantidade * 13
+      escreva("O valor desejado e de ", valorProduto)
+      pare
+      caso contrario;
+     
+    }
+    
+  }
+}
